@@ -21,10 +21,10 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('index/', index), #首页
     path('detail/', detail),
-    path('cart/add_cart/$', add_cart),
+    path('cart/add_cart/', add_cart),
     path('goods/', goods),
-    path('cart/show_cart/$', show_cart),
-    path('cart/remove_cart/$', remove_cart),
-    path('cart/place_order/$', place_order),
+    path('cart/show_cart/', show_cart),
+    path('cart/remove_cart/', remove_cart),
+    path('cart/place_order/', place_order),
 
 ]
